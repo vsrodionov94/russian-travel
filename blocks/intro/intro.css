@@ -4,6 +4,7 @@
 
 .intro {
     padding-top: 114px;
-    width: 690px;
-    margin-left: 148px;
+    max-width: 984px;
+    margin-left: auto;
+    margin-right: auto;
 }
