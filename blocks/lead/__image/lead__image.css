@@ -1,0 +1,7 @@
+.lead__image {
+    margin: 0 auto;
+    width: 984px;
+    height: 615px;
+    background: url('../../../images/__image.jpg') no-repeat;
+}
+

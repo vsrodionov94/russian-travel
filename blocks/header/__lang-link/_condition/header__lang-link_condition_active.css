@@ -1,0 +1,4 @@
+.header__link_condition_active {
+    text-decoration: underline;
+    cursor: not-allowed;
+}
