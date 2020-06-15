@@ -19,4 +19,4 @@
 
 Хочется добавить фотографий своих (хоть и не столь частых) путешествий по России.
 
-Ссылка на проект [https://vsrodionov94.github.io/russian-travel/]
+Ссылка на [проект](https://vsrodionov94.github.io/russian-travel/)
