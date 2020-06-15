@@ -2,4 +2,14 @@
     margin-right: auto;
     width: 176px;
     height: 52px;
+    background: url('../../../images/__logo.svg');
+
+}
+
+@media screen and (max-width: 750px) {
+    .header__logo {
+        width: 142px;
+        height: 42px;
+        background: url('../../../images/__logo_mini.svg');
+    }
 }

@@ -16,3 +16,11 @@
 .place:last-child {
     margin-bottom: 0;
 }
+
+@media screen and (max-width: 750px) {
+    .place {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 48px;
+    }
+}

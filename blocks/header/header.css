@@ -5,7 +5,18 @@
 
 .header {
     padding-top: 28px;
-    margin-left: 48px;
-    margin-right: 48px;
+    margin: 0 48px;
     display: flex; 
+}
+
+@media screen and (max-width: 1000px) {
+    .header {
+        margin: 0 24px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .header {
+        margin: 0 16px;
+    }
 }

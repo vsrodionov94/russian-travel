@@ -3,6 +3,13 @@
     line-height: 6.25rem;
     font-weight: 900;
     margin: 56px auto 32px;
-    width: 720px;
+    max-width: 720px;
     text-align: center;
+}
+
+@media screen and (max-width: 750px) {
+    .lead__title {
+        font-size: 2.5rem;
+        line-height: 2.75rem;
+    }
 }
