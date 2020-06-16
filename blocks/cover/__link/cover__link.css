@@ -8,4 +8,9 @@
     align-content: center;
     justify-content: center;
     color: #fff;
+    transition: opacity .5s;
+}
+
+.cover__link:hover {
+    opacity: 0.3;
 }
