@@ -1,11 +1,15 @@
 .place__paragraph {
-    font-size: 1.125rem;
-    line-height: 1.875rem;
-    font-weight: 100;
-    margin: 0 0 24px;
+  font-size: 1.125rem;
+  line-height: 1.875rem;
+  font-weight: 100;
+  margin: 0 0 24px;
 }
 
-@media screen and (max-width: 750px) {
+.place__paragraph:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 700px) {
     .place__paragraph {
         padding: 0 16px;
     }

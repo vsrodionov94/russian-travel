@@ -8,10 +8,6 @@
     height: 740px;
     margin: 92px auto 0;
     position: relative;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
     transition: opacity .5s;
 }
 

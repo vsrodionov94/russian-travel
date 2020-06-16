@@ -5,7 +5,15 @@
 
 .lead {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     max-width: 984px;
     margin: 0 auto;
+    padding-top: 56px;
+    justify-content: center;
+    padding-bottom: 92px;
+}
+
+@media screen and (max-width: 700px) {
+  .lead {
+      padding-bottom: 64px;
 }

@@ -1,4 +1,23 @@
 .places {
+    padding-left: 48px;
+    padding-right: 48px;
+    display: flex;
+    flex-wrap: wrap;
     max-width: 984px;
     margin: 0 auto;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .places {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .places {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
