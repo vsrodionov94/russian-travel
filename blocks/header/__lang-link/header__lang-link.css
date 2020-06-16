@@ -1,6 +1,7 @@
 .header__lang-link {
     font-size: 1.5rem;
     line-height: 1.1;
+    font-weight: 100;
     color: #fff;
     text-decoration: none;
     transition: opacity .5s;
