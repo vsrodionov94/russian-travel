@@ -4,19 +4,20 @@
 @import url('./__lang-link/_condition/header__lang-link_condition_active.css');
 
 .header {
-    padding-top: 28px;
-    margin: 0 48px;
-    display: flex; 
+    max-width: 1184px;
+    padding: 28px 48px 0;
+    margin: 0 auto;
+    display: flex;
 }
 
 @media screen and (max-width: 1000px) {
     .header {
-        margin: 0 24px;
+        padding: 28px 28px 0;
     }
 }
 
 @media screen and (max-width: 750px) {
     .header {
-        margin: 0 16px;
+        padding: 16px 16px 0;
     }
 }

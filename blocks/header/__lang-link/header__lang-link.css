@@ -4,9 +4,17 @@
     font-weight: 400;
     color: #fff;
     text-decoration: none;
+    margin-left: 18px;
     transition: opacity .5s;
 }
 
 .header__lang-link:hover {
     opacity: .8;
+}
+
+@media screen and (max-width: 700px) {
+  .header__lang-link {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+  }
 }
