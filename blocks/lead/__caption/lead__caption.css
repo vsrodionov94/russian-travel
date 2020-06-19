@@ -4,7 +4,7 @@
     font-weight: 400;
     letter-spacing: .15em;
     text-transform: uppercase;
-    width: 100%;
+    width: 90%;
     align-self: flex-start;
     margin-top: 0;
     margin-bottom: 0;
@@ -12,12 +12,12 @@
 
 @media screen and (max-width: 1000px) {
   .lead__caption {
-    margin-left: 24px;
+    padding-left: 24px;
   }
 }
 
 @media screen and (max-width: 700px) {
   .lead__caption {
-    margin-left: 16px;
+    padding-left: 16px;
   }
 }
